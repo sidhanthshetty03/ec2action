@@ -11,7 +11,7 @@ variable "instance_type" {
 
 variable "instance_profile_arn" {
   type    = string
-  default = "arn:aws:iam::123456789012:instance-profile/role-name"
+  default = "arn:aws:iam::670514002493:instance-profile/my-ec2-role"
 }
 variable "metastore_port" {
   type    = number
