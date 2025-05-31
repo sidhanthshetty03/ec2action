@@ -3,6 +3,7 @@ provider "aws" {
   default_tags {
     tags = {
       Name = "metadata"
+      user = "test"
     }
   }
 }
